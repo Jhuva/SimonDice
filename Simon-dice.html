@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Simón Dice</title>
+</head>
+<body>
+
+    <!-- <div class="main">
+        <div class="main-2">
+            <h1 class="titulo">JhuvaJuegos</h1>
+            <div>
+                <div class="puntaje">
+                    <h3>Puntaje:</h3>
+                    <input class="input" id="puntaje" type="text" value="" disabled>
+                </div>
+            </div>
+        </div>
+
+    </div> -->
+
+    <div class="container">
+        <div class="gameboard animate__animated animate__backInLeft">
+            <div id="celeste" class="color celeste left" data-color="celeste"></div>
+            <div id="violeta" class="color violeta right" data-color="violeta"></div>
+            <div id="naranja" class="color naranja left" data-color="naranja"></div>
+            <div id="verde" class="color verde right" data-color="verde"></div>
+        </div>
+        <button id="btnEmpezar" class="btn-start animate__animated animate__backInRight" onclick="empezarJuego()">Empezar a jugar!</button>
+    </div>
+    
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <script src = "./js/Simon-dice.js"></script>
+
+</body>
+</html>
